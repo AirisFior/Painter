@@ -20,11 +20,10 @@ private:
 class arc {
 public:
 	arc(const point2&c, double r, double angs, double angf);
-	// дописать методы	!!!
-	point2 center; // центр
+	point2 center; 
 private:
-	double m_r; // радиус
-	double m_start; // угол начала, в градусах
-	double m_finish; // угол окончания, в градусах
+	double m_r;
+	double m_start; 
+	double m_finish;
 };
 
